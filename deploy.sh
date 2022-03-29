@@ -1,15 +1,15 @@
-#!/usr/bin/env sh
-set -e
+if [ -d "./.git" ]; then
+    git add --all
+    git commit -m 'deploy'
+    git push --set-upstream origin master
+else
+    # rm -rf .git
+    git init
+    git add --all
+    git commit -m 'deploy'
+    # if 'error: remote origin already exists.'
+    # git remote rm origin
+    git remote add origin git@github.com:ychda/blog.git
 
-# 不保留 git 提交历史
-rm -rf .git
-
-git init
-git add -A
-git commit -m 'deploy'
-
-git remote add origin git@github.com:ychda/blog.git
-
-# git push -f git@github.com:ychda/ychda.github.io.git master:gh-pages
-git push -f git@github.com:ychda/blog.git master:master
-cd -
+    git push -f git@github.com:ychda/blog.git master:master
+fi
