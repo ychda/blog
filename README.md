@@ -1,3 +1,7 @@
+# 写作
+
+`$ hexo new 'Blog Title''`
+
 # 发布
 
 [https://ychda.github.io/](https://ychda.github.io/)
