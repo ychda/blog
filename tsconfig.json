@@ -19,7 +19,7 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": [
-        "./app/*"
+        "./src/*"
       ]
     },
     "incremental": true,
