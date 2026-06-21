@@ -49,8 +49,11 @@ function RoundedImage(props) {
 }
 
 function Code({ children, ...props }) {
-  let codeHTML = highlight(children)
-  return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
+  // let codeHTML = highlight(children);
+  let codeHTML = highlight(children.replace(/\r\n/g, '\n'));
+  return (
+    <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
+  );
 }
 
 function slugify(str) {
@@ -62,6 +65,7 @@ function slugify(str) {
     .replace(/&/g, '-and-') // Replace & with 'and'
     .replace(/[^\w\-]+/g, '') // Remove all non-word characters except for -
     .replace(/\-\-+/g, '-') // Replace multiple - with single -
+    // .replace(/\r\n/g, '\n')
 }
 
 function createHeading(level) {
