@@ -26,8 +26,8 @@ export default function Footer() {
             target="_blank"
             href="/rss"
           >
+            <p className="ml-2 h-7 mr-1 text-blue-600">rss</p>
             <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
           </a>
         </li>
         <li>
@@ -37,8 +37,8 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/vercel/next.js"
           >
+            <p className="ml-2 h-7 mr-1 text-blue-600">github</p>
             <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
           </a>
         </li>
         <li>
@@ -48,8 +48,8 @@ export default function Footer() {
             target="_blank"
             href="https://vercel.com/templates/next.js/portfolio-starter-kit"
           >
+            <p className="ml-2 h-7 mr-1 text-blue-600">view source</p>
             <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
           </a>
         </li>
       </ul>
