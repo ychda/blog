@@ -4,7 +4,7 @@ const navItems = {
   'https://ychda.github.io': {
     name: 'home',
   },
-  '/blog': {
+  '/': {
     name: 'blog',
   },
   'https://vercel.com/templates/next.js/portfolio-starter-kit': {
