@@ -8,9 +8,13 @@
 // export default nextConfig;
 
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
+const repoName = "blog"; // 仓库名称
+
 const nextConfig = {
     output: 'export',
-    basePath: "/blog",
+    basePath: isProd ? `/${repoName}` : "",
+    assetPrefix: isProd ? `/${repoName}/` : "",
     images: {
         unoptimized: true,
     },
