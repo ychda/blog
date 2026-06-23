@@ -1,5 +1,7 @@
 # Portfolio Blog Starter
 
+代码源文件来源于next.js官方示例代码，进行了部分修改。[源代码](https://github.com/vercel/examples/tree/main/solutions/blog)
+
 This is a porfolio site template complete with a blog. Includes:
 
 - MDX and Markdown support
