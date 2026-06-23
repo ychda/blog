@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const navItems = {
-  '/': {
+  'https://ychda.github.io': {
     name: 'home',
   },
   '/blog': {
