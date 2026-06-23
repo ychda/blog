@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <rss version="2.0">
+    <channel>
+        <title>My Portfolio</title>
+        <link>https://ychda.github.io/blog</link>
+        <description>This is my portfolio RSS feed</description>
+        <item>
+          <title>读书记录</title>
+          <link>https://ychda.github.io/blog/blog/reading-books</link>
+          <description>记录自己读书的进度</description>
+          <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+<item>
+          <title>Embracing Vim: The Unsung Hero of Code Editors</title>
+          <link>https://ychda.github.io/blog/blog/vim</link>
+          <description>Discover why Vim, with its steep learning curve, remains a beloved tool among developers for editing code efficiently and effectively.</description>
+          <pubDate>Tue, 09 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+<item>
+          <title>Spaces vs. Tabs: The Indentation Debate Continues</title>
+          <link>https://ychda.github.io/blog/blog/spaces-vs-tabs</link>
+          <description>Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think.</description>
+          <pubDate>Mon, 08 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+<item>
+          <title>The Power of Static Typing in Programming</title>
+          <link>https://ychda.github.io/blog/blog/static-typing</link>
+          <description>In the ever-evolving landscape of software development, the debate between dynamic and static typing continues to be a hot topic.</description>
+          <pubDate>Sun, 07 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+  </rss>
