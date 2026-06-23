@@ -9,6 +9,7 @@
 
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === "production";
+console.log(process.env.NODE_ENV);
 const repoName = "blog"; // 仓库名称
 
 const nextConfig = {
