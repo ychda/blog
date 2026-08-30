@@ -1,0 +1,5 @@
+allowBuilds:
+  '@vercel/speed-insights': false
+  sharp: false
+minimumReleaseAgeExclude:
+  - postcss@8.5.20

@@ -1,0 +1,29 @@
+{
+  "name": "next.js-blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && gh-pages -d out"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "26.1.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "geist": "1.7.2",
+    "next": "^16.2.10",
+    "next-mdx-remote": "^6.0.0",
+    "postcss": "^8.5.20",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "sugar-high": "^1.2.1",
+    "tailwindcss": "4.3.3"
+  },
+  "devDependencies": {
+    "baseline-browser-mapping": "^2.10.43",
+    "typescript": "^6"
+  }
+}
